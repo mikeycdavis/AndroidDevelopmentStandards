@@ -1,8 +1,8 @@
-<!-- Charter revision 3; authoritative evidence: F:\GitHub Evidence$r\evidence-1\ -->
+<!-- Charter revision 3; authoritative evidence: F:\GitHub Evidence\AndroidDevelopmentStandards\evidence-1\ -->
 # Charter packet 04 — AndroidDevelopmentStandards
 
 Status: DRAFT, read-only. Backlog IDs are draft labels, not issue numbers. See
-[00-shared-conventions.md](00-shared-conventions.md). Scope below follows Mike's list (on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)).
+`00-shared-conventions.md` (kept in the evidence folder above, not in this repository). Scope below follows Mike's list (on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)).
 
 ## 1. Purpose
 
@@ -52,6 +52,8 @@ privacy, build integrity, testing evidence, and release operations.
   TV/Auto, and ChromeOS deferred unless a consumer needs them.
 
 ## 4. Authoritative first-party sources (all UNVERIFIED until opened)
+
+> Status note: this section is the pre-verification charter text. The source ledger in the evidence folder (hashed in `docs/evidence-index.md`) records which sources were later opened (tool-extracted, not human-reviewed) and governs; "unverified" below is superseded per source by the ledger.
 
 Cited by Mike (taken as his citation, not yet opened by me): Android security tips/checklist
 (`developer.android.com/privacy-and-security/security-tips`), Network Security Configuration
@@ -162,9 +164,7 @@ with Android modules. Declared `no-android` is a declaration, not a finding.
 Applied (Mike, on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)): v1 validated by adversarial fixtures only (no qualifying real workload under F:\Repos); pins the SoftwareTestingStandards core release-evidence schema and extends it with a platform profile.
 
 
-1. Any real Android project to validate against? If not, fixture-only and stated as such.
+1. ~~Real Android project to validate against?~~ Settled by the applied decision above: fixture-only validation.
 2. Kotlin/Compose only, or also Java/XML views and NDK in v1? Recommendation: Kotlin/Gradle
    first; NDK as pinning rule only.
-3. Shared design with Apple: propose a common "mobile release evidence" schema (versions, tracks,
-   provenance) in one place — either vendored identically or owned by one pack and referenced.
-   Recommendation: decide before either pack's evidence contract freezes (APL-B07/AND-B06).
+3. ~~Shared mobile release-evidence design.~~ Settled by the applied decision above: SoftwareTestingStandards owns the core release-evidence schema; Android pins an exact core version and extends only its own namespace. The core remains unfrozen (see AND-B06).
