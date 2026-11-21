@@ -2,7 +2,7 @@
 # Charter packet 04 — AndroidDevelopmentStandards
 
 Status: DRAFT, read-only. Backlog IDs are draft labels, not issue numbers. See
-`00-shared-conventions.md` (kept in F:\GitHub Evidence\SoftwareTestingStandards\evidence-1\, not in this repository). Scope below follows Mike's list (on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)).
+`00-shared-conventions.md` (kept in `F:\GitHub Evidence\SoftwareTestingStandards\evidence-1\`, not in this repository). Scope below follows Mike's list (on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)).
 
 ## 1. Purpose
 
