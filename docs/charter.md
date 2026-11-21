@@ -161,6 +161,8 @@ with Android modules. Declared `no-android` is a declaration, not a finding.
 
 ## 8. Applied decisions and open questions
 
+Note on the fixture-only choice: the earlier survey statement that no real Android workload exists under F:Repos was incomplete; tracked Android-relevant projects do exist there. Fixture-only v1 validation is therefore an owner decision, not a verified absence of candidates. "Qualifying" is undefined and any adopter trial must follow the read-only, commit-pinned-copy rule (T12) and cannot be claimed from fixtures.
+
 Applied (Mike, on or before 2026-11-19 19:36 PST (2026-11-20T03:36Z)): v1 validated by adversarial fixtures only (no qualifying real workload under F:\Repos); pins the SoftwareTestingStandards core release-evidence schema and extends it with a platform profile.
 
 
